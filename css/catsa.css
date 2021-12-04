@@ -1,0 +1,170 @@
+section{
+    background-color: wheat;
+}
+.col15{
+    width: 15%;
+    display: flex;
+}
+.col70{
+    width: 70%;
+}
+.logo>div>img{
+    width: 100%;
+}
+.col70 ul{
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color: #404040;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.col15>div>img{
+    width: 100%;
+}
+.ten{
+    margin:0;
+    padding:0;
+}
+.menu{
+    width: 100%;
+    background-color: #E6E6E6;
+    border-bottom: 5px solid darkblue;
+    padding-right: 15px;
+}
+.col15>div:first-child {
+    width: 30%;
+    cursor: pointer;
+    padding: 7px;
+}
+.col15>div:last-child {
+    width: 70%;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    font-weight: 600;
+}
+p{
+    margin:7px 10px 7px 0px;
+    padding:3px;
+}
+.col70>ul>li>a:hover{
+    color: blue;
+    border-bottom: 3px solid darkblue;
+}
+.col70>ul>li>a{
+    padding: 18px 35px;
+}
+.col70>ul{
+    display: flex;
+    margin: 0 10px;
+}
+.menuphu{
+    display: none;
+    text-align: center;
+    margin-top: 21px;
+    z-index: 1000;
+}
+.product:hover .menuphu{
+    display: block;
+    position:absolute;
+}
+.menuphu>li{
+    border-bottom: 1px solid #E7E7E7;
+    padding: 10px;
+    background-color: white;
+}
+.menuphu>li>a{
+    padding: 5px 30.5px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.slide>img{
+    width: 1550px;
+    height: 570px;
+}
+.slide{
+    display: flex;
+    width:9000px;
+    transition: all 0.25s;
+}
+.slides{
+    width: 1550px;
+    overflow: hidden;
+}
+.prev,.next{
+    position: absolute;
+    top:45%;
+    cursor: pointer;
+    padding: 8px;
+    opacity: 0.5;
+    background-color: gray;
+    transition: 0.7s ease;
+    font-weight: 800;
+    font-size:1.2rem;
+    user-select: none;
+    border-radius:7px;
+}
+.next{
+    right:0;
+}
+.prev{
+    left:0;
+}
+.prev:hover{
+    opacity: 1;
+}
+.next:hover{
+    opacity: 1;
+}
+.sp>h1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 650;
+    text-shadow: 3px 2px 4px gray;
+    padding: 5px;
+    margin: 0;
+}
+.mssp>h3{
+    text-align: center;
+    color:gray;
+    padding:5px;
+    font-weight: 650;
+}
+.col20{
+    width: 20%;
+    margin-left: 5%;
+}
+.anhchinh>img{
+    width: 100%;
+}
+.hinh>img{
+    width: 100%;
+    height:50px;
+}
+.col80{
+    width: 80%;
+    display: flex;
+    margin-top:-70px;
+    justify-content: space-around;
+}
+.col80>div>img{
+    margin-left: 65%;
+}
+.sub{
+    display: flex;
+}

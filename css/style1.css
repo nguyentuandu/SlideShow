@@ -1,0 +1,30 @@
+a{
+    text-decoration: none;
+    display:block ;
+    padding: 20px;
+}
+a:hover{
+    background-color: #0000FF;
+    color: #FFFFFF;
+
+}
+ul{
+    list-style-type: none;
+    margin: 1% 0%;
+    padding: 0%;
+    display: flex;
+    background-color: #E8E8E8;
+}
+li.t{
+    margin-left: auto;
+    border-left: 1px solid white;
+}
+li.mh{
+    border-right: 1px solid white;
+}
+tfoot{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0% 43%;
+}

@@ -1,0 +1,25 @@
+div~p{
+    color: red;
+}
+body{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-position-x: center;
+    font-weight: 800;
+    background-image: url(images/bg5.gif);
+    background-repeat: no-repeat;
+    background-position: 100px 100px;
+    background-attachment: fixed;
+    background:radial-gradient(red,green,blue,gold,white);
+}
+h4{
+    text-transform: capitalize;
+    text-decoration: underline;
+    direction: rtl;
+}
+p.t{
+width: 300px;
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+}

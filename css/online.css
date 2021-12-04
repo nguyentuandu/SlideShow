@@ -1,0 +1,33 @@
+.hihi{
+    width: 70%;
+    margin:0 auto;
+    background-color: blue;
+}
+
+.type{
+    text-align: center;
+}
+.button{
+    background-color:darkblue;
+    border: 1px solid white;
+    width: 80px;
+}
+.text{
+    width: 30%;
+}
+.date{
+    width: 30%;
+}
+.col20{
+    width: 20%;
+}
+.col70{
+    width: 70%;
+}
+.col10{
+    width: 10%;
+}
+ul.menu{
+    list-style-type: none;
+    display: flex;
+}
